@@ -1,14 +1,14 @@
-import { Atom, Beaker, BookMarked, BookOpen, Bot, Calculator, Clock, Cog, FileQuestion, HelpCircle, Projector, TestTube } from "lucide-react"
+import { Atom, Beaker, BookMarked, BookOpen, Bot, Calculator, Clock, Cog, FileQuestion, HelpCircle, Paperclip, Projector, TestTube } from "lucide-react"
 
 export const subjects = [
     { name: 'Physics', icon: Atom, gradient: 'h-2 bg-gradient-to-r from-blue-500 to-purple-500', resources: [
 	{
 		name: "Semester 1",
 		contents: [
-    			{ title: "Free Reference Book", description: 'Physics past year question free reference books including step-by-step answers', icon: BookOpen, link: "https://drive.google.com/drive/folders/1BsXO5vSbnJkqBOB1ckK_RQxEC33yw5kQ?usp=sharing" },
     			{ title: 'Previous Year Exams', description: 'Practice with past exam questions', icon: FileQuestion, link: "https://drive.google.com/drive/folders/1A4IBiqn4Na6zzSnSy6rDdZqcSXFgK3O3?usp=sharing" },
     			{ title: 'Practical Test References', description: 'Prepare for practical tests', icon: TestTube, link: "https://drive.google.com/drive/folders/1-YFvY7oYu7XP8Bf6gZb6UPMg_1DtJyQS?usp=sharing" },
     			{ title: 'Tutorial Books', description: 'Explore recommended tutorial books', icon: BookMarked, link: "https://drive.google.com/drive/folders/1NslDf93DuU4Px1FJts-mfqEhuT807cpc?usp=sharing" },
+    			{ title: 'Summary', description: 'A short summary for each chapter', icon: Paperclip, link: "https://drive.google.com/drive/folders/1N8pKuDUBZR4d72LQi3ChdOTtTh_yXmtM?usp=sharing" },
 		]
 	},
 	{
@@ -26,6 +26,7 @@ export const subjects = [
     			{ title: 'Practical Test References', description: 'Prepare for practical tests', icon: TestTube, link: "https://drive.google.com/drive/folders/1kwoLYkKbgvFaVs0dT7RBCIhc7_o_A9rr?usp=sharing" },
     			{ title: 'Tutorial Books', description: 'Explore recommended tutorial books', icon: BookMarked, link: "https://drive.google.com/drive/folders/1mVWdzo2Qy4R-t9yOYwGZcKuBz7zGLyzY?usp=sharing" },
     			{ title: 'ChemMatrique (Extra Questions)', description: 'Challenge yourself with additional practice', icon: HelpCircle, link: "https://beacons.ai/chematrique" },
+    			{ title: 'Summary', description: 'A short summary for each chapter', icon: Paperclip, link: "https://drive.google.com/drive/folders/1nIHrnQ8FWL_veRrYLQQug9jubacrgbj_?usp=sharing" },
 		]
 	},
 	{
@@ -39,6 +40,8 @@ export const subjects = [
 		name: "Semester 1",
 		contents: [
     			{ title: 'KMKJ Math Bot', description: 'A comprehensive telegram bot full of resources including Tutorial Books, Past Year Exams, Exercises, and Notes', icon: Bot, link: "https://t.me/mas2raSM_bot" },
+    			{ title: 'Tutorial Books', description: 'Explore recommended tutorial books', icon: BookMarked, link: "https://drive.google.com/drive/folders/1cLbE_cfTaI_tc5m0_w2lb047CKqdg_lX?usp=sharing" },
+    			{ title: 'Summary', description: 'A short summary for each chapter', icon: Paperclip, link: "https://drive.google.com/drive/folders/1cDWwLSe7-RkwyI0fM3o7noL2kk5mU4vv?usp=sharing" },
 		]
 	},
 	{
